@@ -53,8 +53,7 @@ This project is a Streamlit-based Gen AI application that enables users to:
 ## ⚙️ Setup & Installation
 1. Clone the repository
  ```bash
-   git clone https://github.com/your-username/genai-assignment.git
-   cd genai-assignment
+   git clone https://github.com/Ishani71199/Gen-AI-Social-Media-Post-Creator-PoC-.git
    ```
    
 3. Create virtual environment & install dependencies
