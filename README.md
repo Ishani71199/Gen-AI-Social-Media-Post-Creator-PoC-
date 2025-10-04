@@ -38,24 +38,62 @@ This project is a Streamlit-based Gen AI application that enables users to:
 └── README.md             # Documentation
 ```
 
+## 🖼️ App Walkthrough
+
+### Upload & Ask  
+- **Upload a PDF**  
+- The app automatically extracts **text, tables, and OCR**  
+- Ask a question → **RAG retrieves context → GPT answers**  
+- If context not found → **GPT fallback**
+
+### 2️⃣ Create Post  
+- **Decide number of slides**  
+- For each slide:  
+  - Upload image / Generate via **AI**  
+  - Add caption: **Manually / AI / RAG**  
+- Slides are stored in **session state**
+
+### 3️⃣ Preview & Download  
+- Navigate slides one by one  
+- **Reorder slides**  
+-  Export options:  
+  - Individual slide → **PNG**  
+  - All slides → **PDF**
+
 ## ⚙️ Setup & Installation
 1. Clone the repository
-2. ```bash
+ ```bash
    git clone https://github.com/your-username/genai-assignment.git
    cd genai-assignment
    ```
    
 3. Create virtual environment & install dependencies
+   ```bash
    python -m venv venv
+   ```
+   ```bash
    source venv/bin/activate   # (Linux/Mac)
    venv\Scripts\activate      # (Windows)
+   ```
+   ```bash
    pip install -r requirements.txt
+   ```
    
-4. Configure Environment Variables
+5. Configure Environment Variables
    Create a .env file in the project root (sample is given in .env.example)
 
-5. Run the Streamlit App
+6. Run the Streamlit App
+ ```bash
    streamlit run app.py
+   ```
 
+## 🤝 Contributing
+Pull requests are welcome! Please fork this repo and create a PR for review.
+
+## 👩‍💻 Author
+### Ishani Biswas 
+🔗 **Connect with me**   
+- 💼 [LinkedIn](https://www.linkedin.com/in/ishanibiswas/)  
+- 📧 [Email](mailto:biswasishani71199@gmail.com) 
 
 
