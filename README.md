@@ -46,14 +46,14 @@ This project is a Streamlit-based Gen AI application that enables users to:
 - Ask a question → **RAG retrieves context → GPT answers**  
 - If context not found → **GPT fallback**
 
-### 2️⃣ Create Post  
+### Create Post  
 - **Decide number of slides**  
 - For each slide:  
   - Upload image / Generate via **AI**  
   - Add caption: **Manually / AI / RAG**  
 - Slides are stored in **session state**
 
-### 3️⃣ Preview & Download  
+### Preview & Download  
 - Navigate slides one by one  
 - **Reorder slides**  
 -  Export options:  
@@ -75,7 +75,7 @@ This project is a Streamlit-based Gen AI application that enables users to:
    pip install -r requirements.txt
    ```
    
-5. Configure Environment Variables
+5. Configure Environment Variables <br>
    Create a .env file in the project root (sample is given in .env.example)
 
 6. Run the Streamlit App
