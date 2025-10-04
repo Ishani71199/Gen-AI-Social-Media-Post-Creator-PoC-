@@ -45,10 +45,10 @@ This project is a Streamlit-based Gen AI application that enables users to:
 
 ### Preview & Download  
 - Navigate slides one by one  
-- Reorder slides 
--  Export options:  
+- Reorder slides
+- Export options:    
   - Individual slide → **PNG**  
-  - All slides → **PDF**
+  - All slides → **PDF** 
 
 ## ⚙️ Setup & Installation
 1. Clone the repository
