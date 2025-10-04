@@ -68,14 +68,10 @@ This project is a Streamlit-based Gen AI application that enables users to:
    ```
    
 3. Create virtual environment & install dependencies
-   ```bash
+```bash
    python -m venv venv
-   ```
-   ```bash
    source venv/bin/activate   # (Linux/Mac)
    venv\Scripts\activate      # (Windows)
-   ```
-   ```bash
    pip install -r requirements.txt
    ```
    
