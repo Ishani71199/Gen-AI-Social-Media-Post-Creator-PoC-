@@ -8,17 +8,6 @@ This project is a Streamlit-based Gen AI application that enables users to:
 - Preview & Rearrange slides.
 - Download slides as PNG or PDF.
 
-## 🚀 Features
-- Upload PDF file
-- Extract:
-  - Text via **PyPDF2**
-  - Tables via **Camelot**
-  - OCR text via **pytesseract**
-- Convert PDF pages to images using **pdf2image**
-- Generate embeddings with **text-embedding-3-large**
-- Ask questions with **Azure gpt-4o-mini**
-- Multimodal support (Text + Tables + OCR)
-
 ## ⚙️ Tech Stack
 - **Streamlit**: UI framework  
 - **PyPDF2**: PDF text extraction  
@@ -56,7 +45,7 @@ This project is a Streamlit-based Gen AI application that enables users to:
 
 ### Preview & Download  
 - Navigate slides one by one  
-- **Reorder slides**  
+- Reorder slides 
 -  Export options:  
   - Individual slide → **PNG**  
   - All slides → **PDF**
