@@ -1,3 +1,4 @@
+# Gen AI Social Media style post creation PoC
 This project is a Streamlit-based Gen AI application that enables users to:
 
 - Upload PDFs and extract text, tables, and OCR data.
